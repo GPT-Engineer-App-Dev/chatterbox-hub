@@ -1,4 +1,4 @@
-import { Home, Trending, Star } from "lucide-react";
+import { Home, TrendingUp, Star } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -14,7 +14,7 @@ export const navItems = [
   {
     title: "Popular",
     to: "/popular",
-    icon: <Trending className="h-4 w-4" />,
+    icon: <TrendingUp className="h-4 w-4" />,
     page: <Index />,
   },
   {
